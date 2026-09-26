@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Rubik+Vinyl&display=swap');
+
+html, body {
+    margin: 0;
+    background-color: rgba(141, 82, 251, 0.247);
+}
+#topBar {
+    position: fixed;
+    display: flex;
+    height: 10vh;
+    align-items: center;
+    background-color: rgba(141, 82, 251);
+    width: 100vw;
+}
+
+#logo {
+    height: 10vh;
+    margin-right: 1vw
+}
+
+#barTitle {
+    font-size: 4vh;
+    font-family: "Rubik Vinyl", system-ui;
+}
